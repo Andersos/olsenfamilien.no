@@ -1,4 +1,3 @@
 # olsenfamilien.no
 
-
-A landingpage for Olsenfamilien.
+A landing page for Olsenfamilien.
