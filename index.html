@@ -4,6 +4,56 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+    body {
+        font-size: 20px;
+        font-family: Helvetica, Verdana, 'Open Sans';
+    }
+    .person {
+        color: rgb(255, 255, 255);
+        background-color: grey;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+    }
+    .table {
+        background-color: black;
+        color: white;
+        background-size: 8px 8px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        width: 260px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.25);
+    }
+    .table-number {
+        color: darkgreen;
+    }
+    .table-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .row {
+        // margin-left: 60px;
+    }
+    .group {
+        margin: 10px;
+    }
+    .groups {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+    .hidden {
+        display: none;
+    }
     </style>
 </head>
 <body>
@@ -11,6 +61,27 @@
         <h1>Ann Harriet 60 år 🎉</h1>
     </header>
     <main>
+        <div class="groups">
+            <div class="group">
+                <div class="row">
+                    <div class="person" data-content="Håvard" style="background: url('img/haavard.jpg') 0% 0% / 60px border-box"></div>
+                    <div class="person" data-content="Anne Cecilie" style="background: url('img/anne.jpg') 0% 0% / 60px border-box"></div>
+                    <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                    <div class="person" data-content="Marit K" style="background: url('img/maritk.jpg') 0% 0% / 60px border-box"></div>
+                </div>
+                <div class="table-row">
+                    <div class="person hidden" data-content="" style="background: rgba(0,0,0,0) 0% 0% / 30px border-box"></div>
+                    <div class="table"><span class="table-number">Bord x</span></div>
+                    <div class="person" data-content="" style="background: rgba(0,0,0,0) 0% 0% / 30px border-box"></div>
+                </div>
+                <div class="row">
+                    <div class="person" data-content="Inger"></div>
+                    <div class="person" data-content="Sonja"></div>
+                    <div class="person" data-content="Marit H"></div>
+                    <div class="person" data-content="Grete"></div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
