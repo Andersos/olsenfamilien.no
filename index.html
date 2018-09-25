@@ -4,14 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ann Harriet 60 år!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
     <style>
+    * {
+        box-sizing: border-box;
+    }
     body {
+        background-color: snow;
         font-size: 20px;
         font-family: Helvetica, Verdana, 'Open Sans';
     }
+    header {
+        background-color: #252525;
+        color: snow;
+        padding: 10px;
+    }
+    h1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .person {
         color: rgb(255, 255, 255);
-        background-color: grey;
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -21,27 +34,27 @@
         width: 60px;
     }
     .table {
-        background-color: black;
+        background-color: #966F33;
         color: white;
         background-size: 8px 8px;
         height: 60px;
         padding: 0;
         margin: 0;
-        width: 260px;
+        width: 265px;
         display: flex;
         align-items: center;
         justify-content: center;
         box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.25);
     }
-    .table-number {
-        color: darkgreen;
+    .no-table-end {
+        margin-left: 60px;
     }
     .table-row {
         display: flex;
         flex-direction: row;
     }
     .row {
-        // margin-left: 60px;
+        margin-left: 60px;
     }
     .group {
         margin: 10px;
@@ -50,7 +63,6 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        // justify-content: center;
     }
     .hidden {
         display: none;
@@ -62,28 +74,26 @@
         <h1>Ann Harriet 60 🎉</h1>
     </header>
     <h2 class="hidden"><a href="/sangtekster">Sangtekster</a><h2>
-    <main>
-        <div class="groups">
-            <div class="group">
-                <div class="row">
-                    <div class="person" data-content="Håvard" style="background: url('img/haavard.jpg') 0% 0% / 60px border-box"></div>
-                    <div class="person" data-content="Anne Cecilie" style="background: url('img/anne.jpg') 0% 0% / 60px border-box"></div>
-                    <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
-                    <div class="person" data-content="Marit K" style="background: url('img/maritk.jpg') 0% 0% / 60px border-box"></div>
-                </div>
-                <div class="table-row">
-                    <div class="person hidden" data-content="" style="background: rgba(0,0,0,0) 0% 0% / 30px border-box"></div>
-                    <div class="table"><span class="table-number">Bord x</span></div>
-                    <div class="person" data-content="" style="background: rgba(0,0,0,0) 0% 0% / 30px border-box"></div>
-                </div>
-                <div class="row">
-                    <div class="person" data-content="Inger"></div>
-                    <div class="person" data-content="Sonja"></div>
-                    <div class="person" data-content="Marit H"></div>
-                    <div class="person" data-content="Grete"></div>
+        <main>
+            <div class="groups">
+                <div class="group">
+                    <div class="row">
+                        <div class="person" data-content="Håvard" style="background: url('img/haavard.jpg') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Anne Cecilie" style="background: url('img/anne.jpg') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Marit K" style="background: url('img/maritk.jpg') 0% 0% / 60px border-box"></div>
+                    </div>
+                    <div class="table-row no-table-end">
+                        <div class="table"><span class="table-number">Tromsø?</span></div>
+                    </div>
+                    <div class="row">
+                        <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                        <div class="person" data-content="Astrid" style="background: url('img/astrid.png') 0% 0% / 60px border-box"></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
-</body>
-</html>
+        </main>
+    </body>
+    </html>
