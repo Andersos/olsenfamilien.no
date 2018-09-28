@@ -43,11 +43,12 @@ h2 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    object-fit: cover;
     border-radius: 50%;
     height: 60px;
     width: 60px;
 }
+
 .table {
     background-color: #966F33;
     color: white;
@@ -195,4 +196,26 @@ h2 {
 }
 .gul {
     background-color: rgba(255,255,0,.2);
+}
+
+@media (max-width: 340px) {
+    .person {
+        height: 40px;
+        width: 40px;
+        background-size: 40px !important;
+    }
+    .table {
+        height: 40px;
+        width: 160px;
+    }
+    .no-table-end {
+        margin-left: 40px;
+    }
+    .row {
+        margin-left: 40px;
+    }
+    .person.hat:before {
+        height: 40px;
+        width: 40px;
+    }
 }
