@@ -15,7 +15,12 @@ header {
 }
 
 .sang {
-    padding-left: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sang .vers {
+    padding-bottom: 20px;
 }
 h1 {
     margin-top: 0;
