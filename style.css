@@ -76,10 +76,11 @@ h2 {
 }
 .group {
     margin: 10px;
+    margin-bottom: 20px;
 }
 .groups {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .hidden {
@@ -93,9 +94,8 @@ h2 {
 .link {
     color: #000;
     padding-top: 10px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     text-decoration: none;
-
 }
 
 .tablemargin {
@@ -106,8 +106,10 @@ h2 {
     display: block;
     font-size: 30px;
     color: #000;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 .lyrics {
@@ -126,6 +128,9 @@ h2 {
     display: inline-block;
 }
 
+.heading {
+    margin-bottom: 20px;
+}
 .menu>.item>img,
  .ui.dropdown>.text>img {
      width: 35px !important;
@@ -177,16 +182,19 @@ h2 {
  .person.hat {
          animation: shake 600ms linear both;
  }
+.sangnavn {
+    margin-left: 10px;
+}
 
 .bla {
-    background-color: rgba(30,144,255, .1);
+    background-color: rgba(30,144,255, .2);
 }
 .rod {
-    background-color: rgba(255,0,0, .1);
+    background-color: rgba(255,0,0, .2);
 }
 .gronn {
-    background-color: rgba(34, 139, 34, .1);
+    background-color: rgba(34, 139, 34, .2);
 }
 .gul {
-    background-color: rgba(255,248,220,.1);
+    background-color: rgba(255,255,0,.2);
 }
