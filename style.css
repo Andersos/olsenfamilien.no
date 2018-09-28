@@ -102,7 +102,8 @@ h2 {
     display: block;
     font-size: 30px;
     color: #000;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .lyrics {
@@ -178,4 +179,10 @@ h2 {
 }
 .rod {
     background-color: rgba(255,0,0, .1);
+}
+.gronn {
+    background-color: rgba(34, 139, 34, .1);
+}
+.gul {
+    background-color: rgba(255,248,220,.1);
 }
