@@ -135,13 +135,13 @@ h2 {
 }
 
 .person.hat:before {
-    background: url("/img/partyat.svg") no-repeat scroll 0 0 transparent;
+    background: url("/img/partyhat.svg") no-repeat scroll 0 0 transparent;
     content: " ";
     display: block;
     height: 60px;
     position: relative;
-    top: -20px;
-    right: -20px;
+    top: -50px;
+    right: 0px;
     width: 60px;
     z-index: 1;
 }
@@ -198,6 +198,11 @@ h2 {
     background-color: rgba(255,255,0,.2);
 }
 
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media (max-width: 340px) {
     .person {
         height: 40px;
@@ -217,5 +222,6 @@ h2 {
     .person.hat:before {
         height: 40px;
         width: 40px;
+        top: -40px;
     }
 }
