@@ -203,6 +203,15 @@ h2 {
     margin-right: 20px;
 }
 
+canvas {
+    position: absolute;
+    // z-index: 100;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+}
+
 @media (max-width: 340px) {
     .person {
         height: 40px;
