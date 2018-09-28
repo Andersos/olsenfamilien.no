@@ -212,6 +212,11 @@ canvas {
     margin: 0;
 }
 
+.dropdown {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 340px) {
     .person {
         height: 40px;
