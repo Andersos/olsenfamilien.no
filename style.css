@@ -67,6 +67,7 @@ h2 {
 .table-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
 }
 .table-number {
     font-size: 24px;
