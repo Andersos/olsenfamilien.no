@@ -92,6 +92,9 @@ h2 {
 
 .link {
     color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
 }
 
 .tablemargin {
