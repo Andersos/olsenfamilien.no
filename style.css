@@ -80,7 +80,7 @@ h2 {
 }
 .groups {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .hidden {
